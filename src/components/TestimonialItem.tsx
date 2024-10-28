@@ -1,5 +1,4 @@
 import clsx from "clsx";
-import React from "react";
 
 type Props = {
   item: {
@@ -9,7 +8,7 @@ type Props = {
     avatarUrl: string;
     comment: string;
   };
-  containerClassName: string;
+  containerClassname: string;
 };
 
 const TestimonialItem = ({ item, containerClassname }: Props) => {
